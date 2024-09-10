@@ -5,7 +5,7 @@ from Orange.data import Domain, DiscreteVariable, ContinuousVariable
 import numpy as np
 import pandas as pd
 
-with open("diabetes_rf_model.pkcls", "rb") as model:
+with open("diabetes_2024", "rb") as model:
     loaded_model = pickle.load(model)
 
 header = st.container()
