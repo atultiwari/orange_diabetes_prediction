@@ -1,0 +1,9 @@
+# Ignore virtual environments
+.venv/
+
+# Ignore other common files and folders
+__pycache__/
+*.py[cod]
+*.log
+.env
+.DS_Store
